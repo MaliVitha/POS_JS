@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+
+  <style>
+   .p{
+      display: block;
+   }
+  </style>
+</head>
+
+<body>
+  
+   <div style="margin: 50px; border: 1px solid black; padding: 30px; display: flex;">
+      <form action="">
+         <label for="nameField" class="p">Full Name</label>
+         <input id="nameField" type="text" placeholder="Ex : Tom" class="p">
+         <label for="telephoneField" class="p">Telephone</label>
+         <input id="telephoneField" type="text" placeholder="Ex : 0123456789" class="p">
+         <label for="addressField" class="p">Address</label>
+         <input id="addressField" type="text" placeholder="Ex : Panadura" class="p">
+
+         <button style="margin-top: 10px;" onclick="saveButtonOnClicked()" type="button">Save</button>
+         
+      </form>
+   </div>
+   <div>
+      <h1 id="lbl1">Name is</h1>
+      <h2 id="lbl2">Address is</h2>
+      <h3 id="lbl3">Telephone is</h3>
+   </div>
+   <script src="./script.js"></script>
+</body>
+
+</html>
